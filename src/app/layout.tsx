@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-
 import "./globals.css";
 import ThemeProvider from "@/Providers/ThemeProvider";
 
@@ -15,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased">
+      <body className={`antialiased `}>
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
