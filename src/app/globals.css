@@ -1,3 +1,17 @@
+/* 
+:root {
+	--primary: #3ea53c;
+	--gray: #b7b7b7;
+	--light-gray: #e3e3e3;
+	--super-light-gray: rgb(244, 244, 244);
+	--black: #333333;
+	--page-margin: 8rem;
+	--page-margin-sm: 0.3rem;
+	--border-radius: 5px;
+}
+
+*/
+
 @layer tw_base, mantine, tw_components, tw_utilities;
 
 /* import tailwind */
