@@ -9,5 +9,12 @@ const config: Config = {
   ],
   presets: [tailwindPresetMantine()],
   plugins: [],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#3ea53c;",
+      },
+    },
+  },
 };
 export default config;
