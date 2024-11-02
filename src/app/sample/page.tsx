@@ -1,3 +1,8 @@
 export default function Sample() {
-  return <div>hello world</div>;
+  return (
+    <>
+      <div className="min-h-screen">hello world</div>;
+      <div className="min-h-screen">hello world</div>;
+    </>
+  );
 }

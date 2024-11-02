@@ -1,8 +1,8 @@
 "use client";
 
 import { AppShell, Container } from "@mantine/core";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 type props = {
   children?: React.ReactNode;
@@ -21,11 +21,7 @@ export default function LayoutProviders({ children }: props) {
       <AppShell.Main>
         <Container size={"xl"}>{children}</Container>
       </AppShell.Main>
-      <AppShell.Footer>
-        <Container size={"xl"} className="flex items-center h-full">
-          <Footer />
-        </Container>
-      </AppShell.Footer>
+      <Footer />
     </AppShell>
   );
 }
